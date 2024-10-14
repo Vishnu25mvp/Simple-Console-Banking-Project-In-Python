@@ -45,7 +45,7 @@ def Create_tables():
 
     finally:
         cur.close()
-        con.close()
+        con.commit()
 
 
 Create_tables()
